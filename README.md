@@ -13,5 +13,5 @@ Creado con **HTML, CSS y JavaScript** para enseñar mis proyectos y habilidades 
 2. Abre `index.html` en tu navegador.  
 
 
--
+---
 ✨ *Proyecto básico para practicar el desarrollo web.*  
