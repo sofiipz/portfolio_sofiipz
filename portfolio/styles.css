@@ -1,0 +1,114 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e2d8e4; /* Color de fondo principal */
+    color: #333; /* Color de texto principal */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #d1ebf7; /* Color de fondo del header */
+    padding: 15px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333; /* Color del texto del menú */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    color: #555; /* Color más oscuro al pasar el ratón */
+}
+
+section {
+    padding: 30px;
+    margin: 10px 20px;
+    background: white; /* Fondo blanco para contraste */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#inicio {
+    background-color: #d1ebf7; /* Fondo para la sección de inicio */
+    color: #333; /* Texto oscuro para contraste */
+    padding: 50px 20px;
+    border-radius: 0;
+}
+
+#inicio h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #d1ebf7; /* Fondo del botón */
+    color: #333; /* Color del texto del botón */
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+form button:hover {
+    background-color: #b4d7ee; /* Fondo más oscuro al pasar el ratón */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #d1ebf7; /* Fondo del footer */
+    color: #333; /* Color del texto del footer */
+    margin-top: 20px;
+}
